@@ -25,6 +25,7 @@
             theme: {
                 extend: {
                     colors: {
+                        'primary-color': '#FF4240',
                         clifford: '#da373d',
                     }
                 }
@@ -42,27 +43,85 @@
 
 <body class="font-manrope">
     <!-- header starting -->
-    <header>
-        
+
+    <header class="container mx-auto lg:space-y-12 mt-4 lg:mt-10">
+        <!-- navbar -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li class="text-primary-color"><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Content</a></li>
+                    </ul>
+                </div>
+                <a href="#">
+                    <h2 class="font-extrabold text-3xl lg:text-4xl">Hockey<span class="text-primary-color">'</span>s
+                    </h2>
+                </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li class="text-primary-color"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Content</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end space-x-4">
+                <i class="opacity-70 fa-solid fa-magnifying-glass"></i>
+                <a class="btn bg-primary-color text-white">Get ticket</a>
+            </div>
+        </div>
+
+        <!-- banner -->
+        <div class="p-5 lg:p-0 carousel w-full md:relative sm:flex flex-col gap-4">
+            <div id="slide1" class="carousel-item relative w-full">
+                <!-- banner image -->
+                <img src="Images/1.png" class="w-full" />
+                <div
+                    class="absolute -bottom-[15px] left-1/2 -translate-x-1/2 lg:left-20 lg:bottom-10 flex gap-5 -translate-y-1/2 transform">
+                    <a href="#slide4" class="btn btn-circle btn-neutral">❮</a>
+                    <a href="#slide2" class="btn btn-circle btn-neutral">❯</a>
+                </div>
+            </div>
+            <!-- banner description -->
+            <div class="lg:absolute bg-black text-white p-4 lg:p-8 rounded-lg space-y-2 lg:space-y-4 lg:right-20 lg:bottom-9">
+                <h3 class="font-extrabold text-lg lg:text-2xl">Meet all the heroes from the field</h3>
+                <p class="text-sm opacity-50">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>turpis
+                    placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </div>
     </header>
     <!-- header end -->
-    
+
     <!-- ---------------------------------------------------- -->
 
     <!-- main starting -->
     <main>
-        
+
     </main>
     <!-- main end -->
-     <!-- --------------------------------------------------- -->
-    
-    
-     <!-- footer starting -->
+    <!-- --------------------------------------------------- -->
+
+
+    <!-- footer starting -->
     <footer>
-        
+
     </footer>
     <!-- footer end -->
-     <!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 </body>
 
 </html>
