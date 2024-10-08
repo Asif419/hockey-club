@@ -97,7 +97,8 @@
                 </div>
             </div>
             <!-- banner description -->
-            <div class="lg:absolute bg-black text-white p-4 lg:p-8 rounded-lg space-y-2 lg:space-y-4 lg:right-20 lg:bottom-9">
+            <div
+                class="lg:absolute bg-black text-white p-4 lg:p-8 rounded-lg space-y-2 lg:space-y-4 lg:right-20 lg:bottom-9">
                 <h3 class="font-extrabold text-lg lg:text-2xl">Meet all the heroes from the field</h3>
                 <p class="text-sm opacity-50">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>turpis
                     placerat dolor. Purus urna in sit nullam proin. </p>
@@ -109,8 +110,113 @@
     <!-- ---------------------------------------------------- -->
 
     <!-- main starting -->
-    <main>
+    <main class="container mx-auto">
 
+        <!-- statistics section -->
+        <section class="text-center my-24 space-y-4 lg:space-y-8">
+            <!-- statistics title -->
+            <div class="space-y-8">
+                <hr class="border-dashed">
+                <div>
+                    <h3 class="font-extrabold text-xl lg:text-3xl mb-3 lg:mb-4">Professional Hockeys Club</h3>
+                    <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br>placerat dolor. Purus
+                        urna
+                        in
+                        sit nullam proin. </p>
+                </div>
+                <hr class="border-dashed">
+            </div>
+
+            <!-- statistical progress -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                <!-- progress one -->
+                <div class="">
+                    <div class="radial-progress text-primary-color" style="--value:70;" role="progressbar">
+                        <p class="text-black  font-extrabold text-xl">87%</p>
+                    </div>
+                    <h3 class="font-semibold text-xl mt-6 mb-3">Prayer Facility</h3>
+                    <p class="font-light text-sm">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <!-- progress two -->
+                <div class="">
+                    <div class="radial-progress text-[#49D293]" style="--value:70;" role="progressbar">
+                        <p class="text-black  font-extrabold text-xl">95%</p>
+                    </div>
+                    <h3 class="font-semibold text-xl mt-6 mb-3">Experienced Coach</h3>
+                    <p class="font-light text-sm">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <!-- progress three -->
+                <div class="">
+                    <div class="radial-progress text-[#FFB546]" style="--value:70;" role="progressbar">
+                        <p class="text-black  font-extrabold text-xl">90%</p>
+                    </div>
+                    <h3 class="font-semibold text-xl mt-6 mb-3">Senior Player</h3>
+                    <p class="font-light text-sm">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <!-- progress two -->
+                <div class="">
+                    <div class="radial-progress text-[#4C8DF1]" style="--value:70;" role="progressbar">
+                        <p class="text-black  font-extrabold text-xl">80%</p>
+                    </div>
+                    <h3 class="font-semibold text-xl mt-6 mb-3">Tidy Environment</h3>
+                    <p class="font-light text-sm">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- program section -->
+        <section class="text-center my-24 space-y-4 lg:space-y-8">
+            <!-- statistics title -->
+            <div class="space-y-8">
+                <hr class="border-dashed">
+                <div>
+                    <h3 class="font-extrabold text-xl lg:text-3xl mb-3 lg:mb-4">Program Sections</h3>
+                    <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br>placerat dolor. Purus
+                        urna
+                        in
+                        sit nullam proin. </p>
+                </div>
+                <hr class="border-dashed">
+            </div>
+
+            <!-- all programs cards -->
+            <div class="text-[#FFFFFF] text-start grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <!-- first card -->
+                <div class="card bg-[url('images/2.png')] bg-cover bg-center shadow-xl">
+                    <div class="card-body bg-slate-950  bg-opacity-50 rounded-2xl pt-24">
+                        <h2 class="card-title font-extrabold text-xl">Junior Program</h2>
+                        <p class="my-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <div class="justify-end">
+                            <button class="btn btn-ghost px-12 bg-primary-color">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- second card -->
+                <div class="card bg-[url('images/3.png')] bg-cover bg-center shadow-xl">
+                    <div class="card-body bg-slate-950  bg-opacity-50 rounded-2xl pt-24">
+                        <h2 class="card-title font-extrabold text-xl">Junior Program</h2>
+                        <p class="my-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <div class="justify-end">
+                            <button class="btn btn-ghost px-12 bg-primary-color">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- third card -->
+                <div class="card bg-[url('images/4.png')] bg-cover bg-center shadow-xl lg:col-span-2">
+                    <div class="card-body bg-slate-950  bg-opacity-50 rounded-2xl pt-24 lg:pt-40">
+                        <h2 class="card-title font-extrabold text-xl">Junior Program</h2>
+                        <p class="my-4 max-w-96">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <div class="justify-end">
+                            <button class="btn btn-ghost px-12 bg-primary-color">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
     <!-- main end -->
     <!-- --------------------------------------------------- -->
